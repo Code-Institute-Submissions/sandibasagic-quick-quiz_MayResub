@@ -146,3 +146,9 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Acknowledgements
+
+Dream Day Festival was designed and developed in conjunction with the Full Stack Software Developer Diploma course at the Code Institute. I would like to thank my mentor, tutors, Slack community and Code Institute for all their support.
+
+[Back to top](<#contents>)
