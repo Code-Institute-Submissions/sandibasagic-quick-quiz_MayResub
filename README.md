@@ -119,3 +119,11 @@ When users click on "Try Now" button, the page takes them to the quiz section. U
 
 ## Libraries
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Color Picker](https://rgbacolorpicker.com// "Color Picker")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
