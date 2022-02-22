@@ -88,3 +88,6 @@ The wireframes are below:
 # Features
 
 ## Existing Features
+
+### Try Now Button
+"Try Now" button takes user to the quiz. When clicked, user can start with quiz. At the end of the quiz, user can return to homepage and start over by clicking "Try Now" button.
