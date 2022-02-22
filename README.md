@@ -14,6 +14,8 @@ Quick Quiz is a web page where users can test their knowledge in answering quick
          * [Colours](#colours)
          * [Structure](#structure)
    * [Wireframes](#wireframes "Wireframes")
+   * [Features to be implemented](#features-to-be-implemented)
+   * [Technologies used](#technologies-used)
 # UX 
 
 ## User Goals
