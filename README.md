@@ -41,3 +41,8 @@ Quick Quiz is a web page where users can test their knowledge in answering quick
 - I expect screen size not to affect the quality of the website.
 - I expect that correct answers are in reality real correct answers
 
+
+## Design Choices
+
+### Fonts
+The selected font is imported and found at [Google Fonts](https://fonts.google.com/ "Google fonts"). From the beginning of the font search, I wanted font that is not to hard to read. When choosing fonts, I came across font named "Signika". It looked right for the website and is easy to read. In case of fallback, I included CSS generic font family "sans-serif".   
