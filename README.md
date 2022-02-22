@@ -129,3 +129,20 @@ When users click on "Try Now" button, the page takes them to the quiz section. U
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
 * [Responsive Design](http://ami.responsivedesign.is/ "Am I Responsive")
+
+# Deployment
+
+Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
+
++ Navigate to the repository on github and click 'Settings'.
++ Then select 'Pages' on the side navigation.
++ Select the 'None' dropdown, and then click 'master'.
++ Click on the 'Save' button.
++ Now the website is now live on https://sandibasagic.github.io/dream-day/
++ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
