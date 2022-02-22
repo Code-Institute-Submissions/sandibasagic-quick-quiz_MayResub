@@ -9,3 +9,11 @@ Quick Quiz is a web page where users can test their knowledge in answering quick
     * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
          * [Expectations](#expectations)
+
+# UX 
+
+## User Goals
+- Simple design 
+- Easy to use
+- Informative
+- Score tracking
