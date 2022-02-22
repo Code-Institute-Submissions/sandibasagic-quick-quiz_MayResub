@@ -84,3 +84,7 @@ The wireframes are below:
 [Back to Top](#table-of-contents)
 \
 &nbsp; 
+
+# Features
+
+## Existing Features
