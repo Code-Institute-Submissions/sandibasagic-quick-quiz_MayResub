@@ -76,3 +76,5 @@ The wireframes are below:
 ### [Mobile Wireframe](wireframes/quick-quiz-mobile.png "Mobile Wireframe")
 
 ### [Tablet Wireframe](wireframes/quick-quiz-tablet.png "Tablet wireframe")
+
+### [Desktop Wireframe](wireframes/quick-quiz-desktop.png "Desktop wireframe")
