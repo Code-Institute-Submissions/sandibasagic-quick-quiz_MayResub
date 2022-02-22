@@ -66,3 +66,10 @@ I have used [RGBA Color Picker](https://rgbacolorpicker.com/ "RGBA Colorpicker")
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Wireframes 
+
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframe for the website. From the start, I am planning to build mobile first and then stretch it to fit larger screen sizes. When drawing my Wireframes, I haven't looked into colours, but did basic element positioning to get a brief presentation on how the website should look.
+
+The wireframes are below: 
+
