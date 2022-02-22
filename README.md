@@ -49,3 +49,20 @@ The selected font is imported and found at [Google Fonts](https://fonts.google.c
 
 ### Colours 
 I have used [RGBA Color Picker](https://rgbacolorpicker.com/ "RGBA Colorpicker") for picking colors. General experience from visiting website should be pleasing and nice. This is why I included bright and colorful colors, but setting their opacity to low values so the colors dont fall out and don't distract the user. In case of late change, I will work with variables so if needed, colors can be changed quickly. 
+
+ ### Structure
+ I will be building my website with a mobile first mindset using the 320px as the smallest screen size for styling to look good. Mobile first aproach is also used, as its expected that most users will visit the site through mobile device. I used this breakpoints, as they seem to be standard. 
+
+ | Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
