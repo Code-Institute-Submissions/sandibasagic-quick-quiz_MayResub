@@ -99,3 +99,6 @@ Landing page or "home page" is first thing that users see when they visit websit
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+### Quiz Page
+When users click on "Try Now" button, the page takes them to the quiz section. Users can see their question, possible answers, current score etc. When they are ready to answer the question, they can simply click on answer they think is right. The site then gives a feedback based on witch answer is right. In case of correct answer, the site will give a background color of green if the answer is correct. In this case, new question will load with new possible answer. If user click to incorrect answer, then page will give the feedback of background color red in the clicked answer. If user answer question wrong, they can still proceed to the next question. After user clicks one of the possible answers, in case of correct answer user get their score for the answer at the top right of the page. In case of wrong answer, user don't get any scores and can proceed to the next question. When user get to the final question, they can play again by clicking the button "Play Again". If they decide not to play, they can simply close the website. 
