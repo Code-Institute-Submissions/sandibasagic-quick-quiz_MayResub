@@ -127,3 +127,5 @@ When users click on "Try Now" button, the page takes them to the quiz section. U
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Color Picker](https://rgbacolorpicker.com// "Color Picker")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
+* [Responsive Design](http://ami.responsivedesign.is/ "Am I Responsive")
