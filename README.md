@@ -109,3 +109,10 @@ When users click on "Try Now" button, the page takes them to the quiz section. U
 - Rewards for high scores 
 - Hints to the answers
 - Sound effects when clicking the correct or incorrect answer
+
+# Technologies Used
+
+## Languages
+- HTML 
+- CSS 
+- JavaScript
