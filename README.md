@@ -116,3 +116,6 @@ When users click on "Try Now" button, the page takes them to the quiz section. U
 - HTML 
 - CSS 
 - JavaScript
+
+## Libraries
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
