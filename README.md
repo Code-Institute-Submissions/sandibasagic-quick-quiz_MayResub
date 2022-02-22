@@ -34,3 +34,10 @@ Quick Quiz is a web page where users can test their knowledge in answering quick
 - Easy to navigate on various screen sizes
 - Using non complex design
 - Possibility to play multiple times 
+
+### Expectations
+- I expect site to be easy to use
+- I expect questions to not be too complex
+- I expect screen size not to affect the quality of the website.
+- I expect that correct answers are in reality real correct answers
+
