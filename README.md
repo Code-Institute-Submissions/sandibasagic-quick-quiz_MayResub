@@ -17,3 +17,10 @@ Quick Quiz is a web page where users can test their knowledge in answering quick
 - Easy to use
 - Informative
 - Score tracking
+
+# User Story
+- As a user, I want to interact with the site
+- As a user, I want content to be informative
+- As a user, I want use it as many times as I want
+- As a user, I would like to use it on multiple screen sizes
+- As a user, I want to track my progress
