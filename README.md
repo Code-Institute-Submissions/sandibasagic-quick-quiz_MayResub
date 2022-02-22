@@ -78,3 +78,9 @@ The wireframes are below:
 ### [Tablet Wireframe](wireframes/quick-quiz-tablet.png "Tablet wireframe")
 
 ### [Desktop Wireframe](wireframes/quick-quiz-desktop.png "Desktop wireframe")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp; 
