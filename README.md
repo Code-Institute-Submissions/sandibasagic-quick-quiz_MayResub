@@ -73,3 +73,4 @@ I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop m
 
 The wireframes are below: 
 
+### [Mobile Wireframe](wireframes/quick-quiz-mobile.png "Mobile Wireframe")
