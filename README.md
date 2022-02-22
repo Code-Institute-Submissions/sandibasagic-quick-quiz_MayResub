@@ -24,3 +24,8 @@ Quick Quiz is a web page where users can test their knowledge in answering quick
 - As a user, I want use it as many times as I want
 - As a user, I would like to use it on multiple screen sizes
 - As a user, I want to track my progress
+
+## Site Owners Goals
+- Providing learning content to the users
+- Easy to use
+- Accessible on all screen sizes  
