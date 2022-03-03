@@ -43,6 +43,10 @@ h3 {
     margin: 0 auto;
 }
 .home-center {
+    justify-content: center;
+    align-items: center;
+}
+.home-column {
     display: flex;
     flex-direction: column;
 }
