@@ -9,3 +9,8 @@
     padding: 0;
     color: #333;
 }
+h1, h2, h3, h4 {
+    font-size: 5.4rem;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+}
