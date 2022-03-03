@@ -46,3 +46,9 @@ let questions = [
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availiableQuestions = [...questions];
+}
