@@ -7,3 +7,4 @@ function toggle() {
         sectionHome.style.display = "none";
     }
 };
+const question = document.getElementById('question')
