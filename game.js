@@ -10,7 +10,7 @@ function toggle() {
 const question = document.getElementById('question')
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availiableQuestions = [];
@@ -64,5 +64,6 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number];
     });
     availiableQuestions.splice(questionIndex, 1);
+    acceptingAnswers = true;
 };
 startGame();
