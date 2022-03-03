@@ -32,9 +32,9 @@ h3 {
     font-weight: 500;
 }
 
-/* Section Home */
+/* Section Center */
 
-.sectionOne {
+.sectionOne, .sectionTwo {
     width: 100vh;
     height: 100vh;
     display: flex;
@@ -71,16 +71,5 @@ h3 {
 }
 
 /* Section Game */ 
-.game-center {
-    justify-content: center;
-    align-items: center;
-}
-.sectionTwo {
-    width: 100vh;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-}
+
+
