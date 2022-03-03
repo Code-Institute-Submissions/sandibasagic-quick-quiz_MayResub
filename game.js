@@ -51,10 +51,13 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availiableQuestions = [...questions];
-    console.log(availiableQuestions);
     getNewQuestion();
 };
 getNewQuestion = () => {
+    if(availiableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        // Go to the end page SECTION!
+        return window.location.assign("");
+    }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availiableQuestions.length)
     currentQuestion = availiableQuestions[questionIndex];
@@ -72,6 +75,7 @@ choices.forEach (choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selctedAnswer = selectedChoice.dataset['number'];
+
         getNewQuestion();
     })
 })
