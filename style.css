@@ -32,7 +32,7 @@ h3 {
     font-weight: 500;
 }
 
-/* Utilities */
+/* Section Home */
 
 .sectionOne {
     width: 100vh;
@@ -68,4 +68,19 @@ h3 {
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+/* Section Game */ 
+.game-center {
+    justify-content: center;
+    align-items: center;
+}
+.sectionTwo {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
 }
