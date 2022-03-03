@@ -62,6 +62,7 @@ getNewQuestion = () => {
     choices.forEach( choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
-    })
+    });
+    availiableQuestions.splice(questionIndex, 1);
 };
 startGame();
