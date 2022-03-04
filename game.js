@@ -1,12 +1,37 @@
-function toggle() {
-    const sectionHome = document.getElementById('sectionHome');
-    if(sectionHome.style.display === "none") {
-        sectionHome.style.display = "block";
-    }
-    else {
-        sectionHome.style.display = "none";
-    }
+// Show/Hide Sections
+const introSectionRef = document.querySelector("#intro-section");
+const gameSectionRef = document.querySelector("#game-section");
+const endSectionRef = document.querySelector("#end-section");
+const toggleBtnRef = Array.from(document.querySelectorAll(".toggle"));
+
+toggleBtnRef.forEach((button) => {
+  button.addEventListener("click", toggle);
+});
+
+function toggle(event) {
+  event.preventDefault();
+  console.log(event.target.id);
+  if (event.target.id === "startGame") {
+    // Hide Section
+    introSectionRef.classList.add("hidden");
+    // Show Section
+    gameSectionRef.classList.remove("hidden");
+  }
+  
+  // console.log(event.target.classList);
+  else if (event.target.id === "startAgain") {
+    // Hide Section
+    gameSectionRef.classList.add("hidden");
+    // Show Section
+    endSectionRef.classList.remove("hidden")}
+else if (event.target.id === "finishGame") {
+    // Hide Section
+    endSectionRef.classList.add("hidden");
+    // Show Section
+    introSectionRef.classList.remove("hidden")};
 };
+
+// Questions var
 const question = document.getElementById('question')
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 let currentQuestion = {};
@@ -56,7 +81,7 @@ startGame = () => {
 getNewQuestion = () => {
     if(availiableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // Go to the end page SECTION!
-        return window.location.assign("");
+        return window.location.assign("/end.hmtl");
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availiableQuestions.length)
