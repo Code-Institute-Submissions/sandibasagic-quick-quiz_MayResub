@@ -109,5 +109,9 @@ h3 {
 /* Head Up Display */ 
 #hud {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+#hud-item {
+    padding: 0 15rem;
 }
