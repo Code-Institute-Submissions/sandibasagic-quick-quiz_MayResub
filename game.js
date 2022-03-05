@@ -102,8 +102,10 @@ choices.forEach (choice => {
         if(!acceptingAnswers) return;
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selctedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset['number'];
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
     })
 })
