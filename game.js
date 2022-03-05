@@ -81,7 +81,10 @@ startGame = () => {
 getNewQuestion = () => {
     if(availiableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // Go to the end page SECTION!
-        return window.location.assign("/end.hmtl");
+        gameSectionRef.classList.add("hidden");
+        // Show Section
+        endSectionRef.classList.remove("hidden");
+        return
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availiableQuestions.length)
