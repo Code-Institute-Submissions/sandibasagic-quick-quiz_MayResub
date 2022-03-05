@@ -30,6 +30,10 @@ else if (event.target.id === "finishGame") {
     // Show Section
     introSectionRef.classList.remove("hidden")};
 };
+// Heads up display counter
+
+const questionCounterText = document.getElementById('questionCounter');
+const scoreText = document.getElementById('score');
 
 // Questions var
 const question = document.getElementById('question')
