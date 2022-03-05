@@ -117,8 +117,10 @@ choices.forEach(choice => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 800);
-        
-    
-    })
-})
+    });
+});
+incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+}
 startGame();
