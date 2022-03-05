@@ -99,3 +99,9 @@ h3 {
 .hidden {
     display: none;
 }
+.correct {
+    background-color: lightgreen;
+}
+.incorrect {
+    background-color: lightcoral;
+}
