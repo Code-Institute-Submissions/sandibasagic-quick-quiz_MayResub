@@ -105,3 +105,9 @@ h3 {
 .incorrect {
     background-color: lightcoral;
 }
+
+/* Head Up Display */ 
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
