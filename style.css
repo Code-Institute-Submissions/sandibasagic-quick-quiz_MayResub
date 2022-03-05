@@ -34,7 +34,7 @@ h3 {
 
 /* Section Center */
 
-.sectionOne, .sectionTwo {
+.sectionOne, .sectionTwo, .sectionThree {
     width: 100vh;
     height: 100vh;
     display: flex;
