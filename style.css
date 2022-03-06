@@ -120,4 +120,5 @@ h3 {
 }
 .hud-main-text {
     text-align: center;
+    padding: 0;
 }
