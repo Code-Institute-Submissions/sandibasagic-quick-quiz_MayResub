@@ -33,7 +33,7 @@ function toggle(event) {
 }
 // Heads up display counter
 
-const questionCounterText = document.getElementById("questionCounter");
+const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 
 // Questions var
