@@ -92,7 +92,7 @@ getNewQuestion = () => {
     return;
   }
   questionCounter++;
-  questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+  progressText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
   const questionIndex = Math.floor(Math.random() * availiableQuestions.length);
   currentQuestion = availiableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
