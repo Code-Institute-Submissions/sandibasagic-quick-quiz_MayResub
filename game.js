@@ -96,14 +96,14 @@ getNewQuestion = () => {
   const questionIndex = Math.floor(Math.random() * availiableQuestions.length);
   currentQuestion = availiableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
-  choices.forEach((choice) => {
+  choices.forEach(choice => {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
   });
   availiableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
-choices.forEach((choice) => {
+choices.forEach(choice => {
   choice.addEventListener("click", (e) => {
     if (!acceptingAnswers) return;
 
