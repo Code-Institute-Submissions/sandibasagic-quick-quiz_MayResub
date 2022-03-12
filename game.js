@@ -45,19 +45,39 @@ let score = 0;
 let questionCounter = 0;
 let availiableQuestions = [];
 
-let questions = [];
 // Credits: James Q Quick -  Fetch questions API
-fetch("questions.json").then(res => {
-  return res.json();
-}).then(loadedQuestions => {
-  console.log(loadedQuestions);
-  questions = loadedQuestions;
-  startGame();
-})
-.catch( err => {
-  console.error(err);
-});
+let questions = [];
+fetch(
+    'https://opentdb.com/api.php?amount=10&category=17&difficulty=easy&type=multiple'
+)
+    .then((res) => {
+        return res.json();
+    })
+    .then((loadedQuestions) => {
+        questions = loadedQuestions.results.map((loadedQuestion) => {
+            const formattedQuestion = {
+                question: loadedQuestion.question,
+            };
 
+            const answerChoices = [...loadedQuestion.incorrect_answers];
+            formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+            answerChoices.splice(
+                formattedQuestion.answer - 1,
+                0,
+                loadedQuestion.correct_answer
+            );
+
+            answerChoices.forEach((choice, index) => {
+                formattedQuestion['choice' + (index + 1)] = choice;
+            });
+
+            return formattedQuestion;
+        });
+        startGame();
+    })
+    .catch((err) => {
+        console.error(err);
+    });
 // Constants
 
 const CORRECT_BONUS = 10;
