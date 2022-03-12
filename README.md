@@ -153,6 +153,7 @@ Quick Quiz has been validated via W3C HTML Validator and the W3C CSS Validator. 
 ![Quick Quiz HTML Validator](wireframes/html-validator.png)
 ![Quick Quiz CSS Validator](wireframes/css-validator.png)
 ![Quick Quiz JS Validator](wireframes/jshint.png)
+![Quick Quiz Lighthouse](wireframes/lighthouse.png)
 
 
 # Deployment
