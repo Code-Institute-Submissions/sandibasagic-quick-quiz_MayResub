@@ -48,36 +48,36 @@ let availiableQuestions = [];
 // Credits: James Q Quick -  Fetch questions API
 let questions = [];
 fetch(
-    'https://opentdb.com/api.php?amount=10&category=17&difficulty=easy&type=multiple'
+  "https://opentdb.com/api.php?amount=10&category=17&difficulty=easy&type=multiple"
 )
-    .then((res) => {
-        return res.json();
-    })
-    .then((loadedQuestions) => {
-        questions = loadedQuestions.results.map((loadedQuestion) => {
-            const formattedQuestion = {
-                question: loadedQuestion.question,
-            };
+  .then((res) => {
+    return res.json();
+  })
+  .then((loadedQuestions) => {
+    questions = loadedQuestions.results.map((loadedQuestion) => {
+      const formattedQuestion = {
+        question: loadedQuestion.question,
+      };
 
-            const answerChoices = [...loadedQuestion.incorrect_answers];
-            formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
-            answerChoices.splice(
-                formattedQuestion.answer - 1,
-                0,
-                loadedQuestion.correct_answer
-            );
+      const answerChoices = [...loadedQuestion.incorrect_answers];
+      formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+      answerChoices.splice(
+        formattedQuestion.answer - 1,
+        0,
+        loadedQuestion.correct_answer
+      );
 
-            answerChoices.forEach((choice, index) => {
-                formattedQuestion['choice' + (index + 1)] = choice;
-            });
+      answerChoices.forEach((choice, index) => {
+        formattedQuestion["choice" + (index + 1)] = choice;
+      });
 
-            return formattedQuestion;
-        });
-        startGame();
-    })
-    .catch((err) => {
-        console.error(err);
+      return formattedQuestion;
     });
+    startGame();
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 // Constants
 
 const CORRECT_BONUS = 10;
@@ -102,14 +102,14 @@ getNewQuestion = () => {
   const questionIndex = Math.floor(Math.random() * availiableQuestions.length);
   currentQuestion = availiableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
-  choices.forEach(choice => {
+  choices.forEach((choice) => {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
   });
   availiableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
-choices.forEach(choice => {
+choices.forEach((choice) => {
   choice.addEventListener("click", (e) => {
     if (!acceptingAnswers) return;
 
