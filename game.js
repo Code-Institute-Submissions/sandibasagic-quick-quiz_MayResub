@@ -45,32 +45,18 @@ let score = 0;
 let questionCounter = 0;
 let availiableQuestions = [];
 
-let questions = [
-  {
-    question: "What day is today?",
-    choice1: "Monday",
-    choice2: "Friday",
-    choice3: "Sunday",
-    choice4: "Tuesday",
-    answer: 1,
-  },
-  {
-    question: "When does the christmas come?",
-    choice1: "January",
-    choice2: "March",
-    choice3: "December",
-    choice4: "August",
-    answer: 3,
-  },
-  {
-    question: "What is the capital city of England?",
-    choice1: "Manchester",
-    choice2: "Liverpool",
-    choice3: "Newcastle",
-    choice4: "London",
-    answer: 4,
-  },
-];
+let questions = [];
+// Credits: James Q Quick -  Fetch questions API
+fetch("questions.json").then(res => {
+  return res.json();
+}).then(loadedQuestions => {
+  console.log(loadedQuestions);
+  questions = loadedQuestions;
+  startGame();
+})
+.catch( err => {
+  console.error(err);
+});
 
 // Constants
 
@@ -128,4 +114,3 @@ incrementScore = (num) => {
   score += num;
   scoreText.innerText = score;
 };
-startGame();
