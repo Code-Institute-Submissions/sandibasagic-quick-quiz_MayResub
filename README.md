@@ -147,6 +147,14 @@ When users click on "Play" button, the page takes them to the quiz section. User
 * [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
 * [Responsive Design](http://ami.responsivedesign.is/ "Am I Responsive")
 
+# Testing
+Quick Quiz has been validated via W3C HTML Validator and the W3C CSS Validator. CSS document passed with no errors found. However HTML file had one minor error with duplicate ID. It was used as both elemetns were updated simultaneously.
+
+![Quick Quiz HTML Validator](wireframes/html-validator.png)
+![Quick Quiz CSS Validator](wireframes/css-validator.png)
+![Quick Quiz JS Validator](wireframes/jshint.png)
+
+
 # Deployment
 
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
@@ -166,6 +174,6 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 
 # Acknowledgements
 
-Dream Day Festival was designed and developed in conjunction with the Full Stack Software Developer Diploma course at the Code Institute. I would like to thank my mentor, tutors, Slack community and Code Institute for all their support.
+Quick Quiz was designed and developed in conjunction with the Full Stack Software Developer Diploma course at the Code Institute. I would like to thank my mentor, tutors, Slack community and Code Institute for all their support.
 
 [Back to top](<#contents>)
