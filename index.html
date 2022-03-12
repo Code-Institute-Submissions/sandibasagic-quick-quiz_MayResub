@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Quick quiz is a interactive, fun and easy game where users can test their knowledge and get feedback and results for it.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quick quiz is a interactive, fun and easy game where users can test their knowledge and get feedback and results for it."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Quick Quiz</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="intro-section" class="sectionOne">
-        <div id="home" class="home-center home-column">
-            <h1>Quick Quiz</h1>
-            <h3>Answer quick and easy questions and test your results</h3>
-            <button id="startGame" class="btn toggle">Play</button>
-        </div>
+      <div id="home" class="home-center home-column">
+        <h1>Quick Quiz</h1>
+        <h3>Answer quick and easy questions and test your results</h3>
+        <button id="startGame" class="btn toggle">Play</button>
+      </div>
     </section>
     <section id="game-section" class="sectionTwo hidden">
-        <div class="game-center home-column">
-            <div id="hud">
-                <div id="hud-item">
-                    <h3 class="hud-main-text">Question</h3>
-                    <p id="progressText" class="hud-prefix">1/3</p>
-                </div>
-            <div id="hud-item">
-                <h3 class="hud-main-text">Score</h3>
-                <p id="score" class="hud-prefix">0</p>
-            </div>
-            </div>
-            <h2 id="question"></h2>
-            <div class="choice-container">
-                <p class="choice-prefix">A</p>
-                <p class="choice-text" data-number="1"></p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">B</p>
-                <p class="choice-text" data-number="2"></p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">C</p>
-                <p class="choice-text" data-number="3"></p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">D</p>
-                <p class="choice-text" data-number="4"></p>
-            </div>
+      <div class="game-center home-column">
+        <div id="hud">
+          <div id="hud-item">
+            <h3 class="hud-main-text">Question</h3>
+            <p id="progressText" class="hud-prefix">1/3</p>
+          </div>
+          <div id="hud-item">
+            <h3 class="hud-main-text">Score</h3>
+            <p id="score" class="hud-prefix">0</p>
+          </div>
         </div>
+        <h2 id="question"></h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4"></p>
+        </div>
+      </div>
     </section>
     <section id="end-section" class="sectionThree hidden">
-        <div class="game-center home-column">
-            <h4>Congratulations, you came to the end!</h4>
+      <div class="game-center home-column">
+        <h4>Congratulations, you came to the end!</h4>
         <button id="finishGame" class="toggle restart btn">Play Again</button>
-        </div>
+      </div>
     </section>
     <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="game.js"></script>
-</body>
+  </body>
 </html>
