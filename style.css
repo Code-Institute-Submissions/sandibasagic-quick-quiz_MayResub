@@ -33,6 +33,10 @@ h3 {
     margin-bottom: 2rem;
     color: #56a5eb;
 }
+h4 {
+    font-size: 3rem;
+    color: #56a5eb;
+}
 
 /* Section Center */
 
@@ -121,11 +125,4 @@ h3 {
 .hud-main-text {
     text-align: center;
     padding: 0;
-}
-
-/* End Page Message */
-
-h4 {
-    font-size: 3rem;
-    color: #56a5eb;
 }
