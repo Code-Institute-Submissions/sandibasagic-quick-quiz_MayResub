@@ -155,6 +155,17 @@ Quick Quiz has been validated via W3C HTML Validator and the W3C CSS Validator. 
 ![Quick Quiz JS Validator](wireframes/jshint.png)
 ![Quick Quiz Lighthouse](wireframes/lighthouse.png)
 
+## Manual Testing
+
+In addition to the automated process above, manual testing was carried out on the site as well.
+
+* Buttons checked if work properly
+* Displaying fetched questions 
+* Question counter 
+* Score counter
+* Feedback for correct/incorrect answers
+
+
 
 # Deployment
 
