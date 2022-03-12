@@ -1,4 +1,4 @@
-// Show/Hide Sections
+// Credits: Simen Dehlin & Tjasa Jan - Show/Hide Sections
 const introSectionRef = document.querySelector("#intro-section");
 const gameSectionRef = document.querySelector("#game-section");
 const endSectionRef = document.querySelector("#end-section");
