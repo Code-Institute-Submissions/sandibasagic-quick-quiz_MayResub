@@ -98,9 +98,11 @@ The wireframes are below:
 ## Existing Features
 
 ### Landing Page
-Landing page or "home page" is first thing that users see when they visit website. There they find basic and short information about what this page is, and if they decide that they want to play a quick quiz, they can click on "Try Now" button.
-### Try Now Button
-"Try Now" button takes user to the quiz. When clicked, user can start with quiz. At the end of the quiz, user can return to homepage and start over by clicking "Try Now" button.
+Landing page or "home page" is first thing that users see when they visit website. There they find basic and short information about what this page is, and if they decide that they want to play a quick quiz, they can click on "Play" button.
+![Quick Quiz landing page](wireframes/landing-page.png)
+### Play Button
+"Play" button takes user to the quiz. When clicked, user can start with quiz. At the end of the quiz, user can return to homepage and start over by clicking "Try Now" button.
+![Quick Quiz Play Button](wireframes/play-button.png)
 
    \
 &nbsp;
