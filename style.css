@@ -22,20 +22,24 @@
     font-weight: 500;
   }
   h2 {
-    font-size: 4.2rem;
+    font-size: 2rem;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     font-weight: 700;
     color: #56a5eb;
+    
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 2rem;
     color: #56a5eb;
   }
   h4 {
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: #56a5eb;
+    padding: 0.3rem;
+
   }
   
   /* Section Center */
@@ -43,13 +47,12 @@
   .sectionOne,
   .sectionTwo,
   .sectionThree {
-    width: 100vh;
+    width: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50rem;
-    margin: 0 auto;
+    margin: auto;
   }
   .home-center {
     justify-content: center;
@@ -63,6 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
   /* Button */
   .btn {
@@ -73,6 +77,7 @@
     border: 0.1rem solid #56a5eb;
     border-radius: 20px;
     margin-bottom: 1rem;
+    margin-top: 3rem;
     text-decoration: none;
     color: #56a5eb;
     background-color: white;
@@ -88,7 +93,7 @@
   .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
-    width: 100%;
+    width: 40rem;
     font-size: 1.8rem;
     border: 0.1rem solid rgba(86, 165, 235, 0.25);
     background-color: white;
@@ -118,7 +123,7 @@
     justify-content: center;
   }
   #hud-item {
-    padding: 0 15rem;
+    padding: 0 2rem;
   }
   .hud-prefix {
     text-align: center;
@@ -128,4 +133,40 @@
     text-align: center;
     padding: 0;
   }
-  
+
+@media (min-width:768px) {
+  h3 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  #hud-item {
+    margin: 0 3rem;
+  }
+  .choice-container {
+    width: 60rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+} 
+@media (min-width:992px) {
+  #hud-item {
+    margin: 0 7rem;
+  }
+  h4 {
+    font-size: 3.5rem;
+  }
+  .btn {
+    margin-top: 5rem;
+  }
+}
+@media (min-width:1200px) {
+  #hud-item {
+    margin: 0 8.5rem;
+  }
+  .choice-container {
+    width: 80rem;
+  }
+}
