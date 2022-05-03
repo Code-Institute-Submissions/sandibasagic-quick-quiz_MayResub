@@ -105,6 +105,12 @@ Landing page or "home page" is first thing that users see when they visit websit
 
 ![Quick Quiz Play Button](wireframes/play-button.png)
 
+### Restart Button
+
+When users start to play the game, they have the option to restart the game if they want to start again. They can use the "Restart Game" button.
+
+![Quick Quiz Restart Game Button](wireframes/restart-game.png)
+
    \
 &nbsp;
 [Back to Top](#table-of-contents)
