@@ -21,8 +21,8 @@
     <section id="intro-section" class="sectionOne">
       <div id="home" class="home-center home-column">
         <h1>Quick Quiz</h1>
-        <h3>Answer quick and easy questions and test your results</h3>
-        <button id="startGame" class="btn toggle">Play</button>
+        <h2>Answer quick and easy questions and test your results</h2>
+        <button onclick="startGame()" id="startGame" class="btn toggle">Play</button>
       </div>
     </section>
     <section id="game-section" class="sectionTwo hidden">
@@ -40,34 +40,29 @@
         <h2 id="question"></h2>
         <div class="choice-container">
           <p class="choice-prefix">A</p>
-          <p class="choice-text" data-number="1"></p>
+          <p class="choice-text" data-number="1">Choice 1</p>
         </div>
         <div class="choice-container">
           <p class="choice-prefix">B</p>
-          <p class="choice-text" data-number="2"></p>
+          <p class="choice-text" data-number="2">Choice 2</p>
         </div>
         <div class="choice-container">
           <p class="choice-prefix">C</p>
-          <p class="choice-text" data-number="3"></p>
+          <p class="choice-text" data-number="3">Choice 3</p>
         </div>
         <div class="choice-container">
           <p class="choice-prefix">D</p>
-          <p class="choice-text" data-number="4"></p>
+          <p class="choice-text" data-number="4">Choice 4</p>
         </div>
-        <button id="finishGame" class="toggle restart btn">Restart Game</button>
+        <button onclick="startGame()" id="finishGame" class="toggle restart btn">Restart Game</button>
       </div>
     </section>
     <section id="end-section" class="sectionThree hidden">
       <div class="game-center home-column">
         <h4>Congratulations, you came to the end!</h4>
-        <button id="finishGame" class="toggle restart btn">Play Again</button>
+        <button onclick="startGame()" id="finishGame" class="toggle restart btn">Play Again</button>
       </div>
     </section>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
     <script src="game.js"></script>
   </body>
 </html>
